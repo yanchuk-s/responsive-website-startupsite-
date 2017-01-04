@@ -49,6 +49,7 @@ a, a:hover{text-decoration: none;}
   margin-right: auto;
   margin-left: auto;
 	width: 90%;
+	
 }
 
 
@@ -58,7 +59,7 @@ a, a:hover{text-decoration: none;}
 	float: left;
 	margin: 0 0 1em;
 	padding: 0 1em;
-	background-color: cadetblue;
+	
 	text-align: center;
 	 word-wrap:break-word;
 }
@@ -79,8 +80,8 @@ a, a:hover{text-decoration: none;}
 .col-12{width: 100%}
 
 
-@media screen and (min-width: 321px){
-	h1 {color: blue;}
+@media screen and (min-width:){
+	
 	
 .col-1{width:8.333333333333%}
 .col-2{width: 16.666666666666%}
@@ -253,8 +254,60 @@ a, a:hover{text-decoration: none;}
 	
 }
 	
-	.ss{height: 500px; background-color: black;
+/*-----services------*/
+
+.Services{text-align: center;padding-top: 7%;width: 100%;height: auto;}
+
+.Services h1{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-family: "Lucida", sans-serif;
+	color: #555555;
+	margin-bottom: 3%;
+}
+
+.Services p{
 	
+	color: #8b8b8b;
+	font-size: 0.9em;
+	font-family: "Florence", cursive;
+	margin-bottom: 6%;
+	
+}
+.Services b{
+	
+	color: #8b8b8b;
+	font-size: 0.9em;
+	font-family: "Florence", cursive;
+	padding-bottom: 25%;
+	
+}
+
+.Services h2{
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: "Lucida", sans-serif;
+	color: #555555;
+}
+
+.Services img{max-width: 100%;
+    height: auto;margin-top: 6%;margin-bottom: 6%;}
+
+@media screen and (min-width: 768px){
+	.col-4{width: 33.333333333333%}
+	.Services h1{font-size: 1.5em;}
+	.Services img{margin-bottom: 7%;margin-top: 7%;}
+	
+}
+@media screen and (min-width: 1024px){
+	.Services h1{font-size: 2em;margin-bottom: 2%;}
+	.Services img{margin-bottom: 8%;margin-top: 11%;}
+	.Services p{font-size: 1em;margin-bottom: 2%;}
+	.Services h2{margin-bottom: 3%;}
+	.Services b{font-size: 1em;}
+}
+
+/*---------services end--------------*/
 /*
 .firstBlock ul{float: right;}
 .firstBlock ul li{display: inline;}
