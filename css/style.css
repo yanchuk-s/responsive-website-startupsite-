@@ -307,7 +307,208 @@ a, a:hover{text-decoration: none;}
 	.Services b{font-size: 1em;}
 }
 
+
 /*---------services end--------------*/
+
+
+/*----------ABOUT US-------------*/
+.aboutUs{text-align: center;margin-top: 14%;width: 100%;height: auto; }
+
+
+.aboutUs h1{
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-family: "Lucida", sans-serif;
+	color: #555555;
+	margin-bottom: 2%;
+	margin-top: 10%;
+}
+
+.aboutUs p{
+	
+	color: #8b8b8b;
+	font-size: 0.9em;
+	font-family: "Florence", cursive;
+	margin-bottom: 6%;
+	
+}
+
+.aboutUs b{
+	display: none;
+	color: #8b8b8b;
+	font-size:1em;
+	font-family: "Florence", cursive;
+
+	
+}
+
+.aboutUs h2{
+	font-size: 1em;
+	text-transform: uppercase;
+	font-family: "Lucida", sans-serif;
+	color: #555555;
+	margin-top: 13%;
+}
+
+
+#aboutimg{
+	cursor: pointer;
+	max-width: 100%;
+	height: auto;
+}
+
+@media screen and (min-width: 768px){
+	.aboutUs h1{font-size: 1.5em;}
+	.col-3{width: 50%}
+	.aboutUs p{font-size: 1em;margin-bottom: 2%;}
+}
+
+
+@media screen and (min-width: 1024px){
+	.aboutUs h1{font-size: 2em;margin-bottom: 2%;margin-top: 16%;}
+	.aboutUs h2{font-size: 1.3em;}
+	.aboutUs p{font-size: 1em;margin-bottom: 2%;}
+	.aboutUs h2{margin-bottom: 3%;}
+	.col-3{width: 25%}
+	.aboutUs b{
+		display: block;
+	margin-bottom: 7%;
+		margin-top: 7%;
+	}
+
+	
+	.col-6{width: 50%;}
+	.facebookContPErsonal{display: none;}
+	.hovereffect {
+		margin-bottom: 11%;}
+	
+}
+
+/* ===== HOVER FOTO CONTACT   ====*/
+
+.hovereffect {
+	
+	cursor: pointer;
+ width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+
+
+.hovereffect .overlay {
+   max-width: 100%;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+	top: auto;
+	bottom: 0;
+	padding: 1em;
+	height: 4.75em;
+	background: #f8f8f8;
+	color: #3c4a50;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.hovereffect img {
+	max-width: 100%;
+	height: auto;
+  
+    position: relative;
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+}
+
+.hovereffect:hover img {
+-webkit-transform: translate3d(0,-10%,0);
+	transform: translate3d(0,-10%,0);
+	max-width: 100%;
+	height: auto;
+}
+
+
+
+.hovereffect a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+	color: #fff;
+	border: 1px solid #fff;
+	margin: 50px 0 0 0;
+	background-color: transparent;
+	text-align: center;
+}
+.hovereffect a.info:hover {
+    box-shadow: 0 0 5px #fff;
+}
+
+
+.hovereffect p.icon-links a {
+	
+	color: #3c4a50;
+	font-size: 1.4em;
+}
+
+.hovereffect:hover p.icon-links a:hover,
+.hovereffect:hover p.icon-links a:focus {
+	color: #252d31;
+}
+
+
+.hovereffect p.icon-links a {
+	-webkit-transition: -webkit-transform 0.35s;
+	transition: transform 0.35s;
+	-webkit-transform: translate3d(0,200%,0);
+	transform: translate3d(0,200%,0);
+}
+
+.hovereffect p.icon-links a span:before {
+	display: inline-block;
+	padding: 8px 10px;
+	speak: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+
+.hovereffect:hover .overlay,
+
+.hovereffect:hover p.icon-links a {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+
+.hovereffect:hover p.icon-links a:nth-child(3) {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.hovereffect:hover p.icon-links a:nth-child(2) {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.hovereffect:hover p.icon-links a:first-child {
+	-webkit-transition-delay: 0.2s;
+	transition-delay: 0.2s;
+}
+
+
+/* ===== HOVER FOTO CONTACT  END ====*/
+.facebookContPErsonal{font-size: 1.7em;margin-right: 3%;cursor: pointer;}
+
+/*----------ABOUT US END-------------*/
+
 /*
 .firstBlock ul{float: right;}
 .firstBlock ul li{display: inline;}
