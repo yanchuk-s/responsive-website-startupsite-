@@ -13,3 +13,17 @@ $(document).ready(function() {
 
 
 
+
+$(document).ready(function() {
+  $('#aboutUsTrigger').click(function() {
+    $('.aboutUs').slideToggle(500);
+  });//end slide toggle
+  
+  $(window).resize(function() {		
+		if (  $(window).width() > 500 ) {			
+			$('.navBar').removeAttr('style');
+		 }
+	});//end resize
+});//end ready
+
+
